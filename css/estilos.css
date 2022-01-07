@@ -27,7 +27,7 @@ body {
 }
 
 .jumbotron p {
-    color: rgb(85, 54, 54);
+    color: #fff;
     font-family: 'Padauk', sans-serif;
     font-size: 20px;
 }
@@ -37,11 +37,9 @@ body {
     color: honeydew;
 }
 
-.jumbotron1 {
+.jumbotron{
     height: 400px;
-    background-image: url(../img/logosecundario.jpg);
-    background-position: center;
-    background-size: cover;
+    background-color: rgb(102, 85, 85);
 
 }
 
