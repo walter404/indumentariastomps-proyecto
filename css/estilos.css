@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2? family = Arimo & family = Be + Vietnam + Pro: ital, wght @ 1,100 & family = Lora: ital, wght @ 1,500 & family = Mate & family = Padauk & family = Fuente + Serif + 4: wght @ 300 & display = swap ');
+@import url('https://fonts.googleapis.com/css2? family = Arimo & family = Lora: ital, wght @ 1,500 & family = Mate & family = Padauk & family = Fuente + Serif + 4: wght @ 300 & display = swap ');
+@import url('https://fonts.googleapis.com/css2? family = Lora: ital, wght @ 1,500 & family = Mate & family = Padauk & family = Source + Serif + 4: wght @ 300 & display = swap ');
+@import url('https://fonts.googleapis.com/css2? family = Lora: ital, wght @ 1,500 & family = Padauk & family = Source + Serif + 4: wght @ 300 & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Padauk & family = Fuente + Serif + 4: wght @ 300 & display = swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7b869e;
+}
+
+.navbar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.jumbotron h1 {
+    color: rgb(228, 222, 222);
+    font-family: 'Padauk', sans-serif;
+
+}
+
+.jumbotron p {
+    color: rgb(85, 54, 54);
+    font-family: 'Padauk', sans-serif;
+    font-size: 20px;
+}
+
+.row .card-body {
+    background-color: rgb(114, 101, 101);
+    color: honeydew;
+}
+
+.jumbotron {
+    height: 400px;
+    background-image: url(../img/logosecundario.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.card .parrafo {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Lucida Sans';
+}
+
+#facilities {
+    padding: 30px 0px;
+}
+
+#facilities h2 {
+    color: rgb(90, 63, 63);
+    font-size: 70px;
+    padding-bottom: 5px;
+    font-family: initial;
+}
+
+.title {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.title p {
+    font-size: 18px;
+}
+
+.card-body {
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    margin: 20px 10px;
+}
+
+
+footer {
+    background-color: rgb(143, 132, 132);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bg {
+    background-image: url(../img/logo.jpeg);
+    background-position: center center;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.bg1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* producto */
+.container4 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.h1 {
+    font-family: 'Lora', serif;
+    color: rgb(104, 93, 93);
+    margin-top: -70px;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 280px);
+    grid-template-rows: 1fr;
+    grid-gap: 1em;
+}
+
+.producto {
+    margin-left: 5px;
+    padding: 5px;
+    max-width: 280px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+}
+
+.producto:hover {
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.5)
+}
+
+.producto>img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.informacion {
+    border-top: 1px solid rgb(230, 230, 230);
+    padding: 1em;
+    display: flex;
+    flex-flow: column;
+}
+
+.informacion *+* {
+    margin-bottom: 0.5em;
+}
+
+.tipo-envio {
+    background-color: rgb(52, 131, 250);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    max-width: max-content;
+    padding: 0 0.2em;
+    border-radius: 3px;
+}
+
+.precio {
+    font-size: 1.5em;
+}
+
+.precio-envio {
+    color: rgb(0, 166, 80);
+}
+
+.discripcion,
+.ubicacion {
+    font-weight: 300;
+}
+
+.precio-envio,
+.descipcion,
+.ubicacion {
+    font-size: 0.9em;
+}
+
+.aos {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    background-color: rgb(100, 93, 93);
+    color: rgb(190, 186, 186);
+    width: 600px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+/* Nosotros */
+.jumbotron1 {
+    text-align: center;
+    background-color: grey;
+    height: 300px;
+    font-size: 30px;
+    font-family: 'Mate', serif;
+}
+
+.single-content {
+    position: relative;
+    transition: .3s;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
+}
+
+.single-content .text-content,
+.single-content:after {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+}
+
+.single-content:after {
+    content: '';
+    display: block;
+    background: crimson;
+    top: 20px;
+    bottom: 20px;
+    opacity: 0;
+    transition: rotate3d(-1, 1, 0, 100deg);
+    transition: .4s;
+}
+
+.comentario .p .h5 {
+    color: brown;
+}
+
+.slide img {
+    height: 65vh;
+}
+
+.card {
+    margin-top: 5px;
+    background-color: rgb(109, 109, 109);
+}
+
+.card .titulo {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}
+
+.card .secundario {
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Lucida Sans';
+}
+
+/* contacto */
+.container5 {
+    margin-bottom: 50px;
+}
+
+.contacto {
+    margin-top: 20px;
+    margin-bottom: -50px;
+    color: rgb(133, 47, 47);
+    font-family: 'Padauk', sans-serif;
+    font-size: 70px;
+
+}
+
+/* galeria */
+.galeri {
+    color: rgb(65, 82, 65);
+    font-family: 'Lora', serif;
+    margin-top: 20px;
+}
