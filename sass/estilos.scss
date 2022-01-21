@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2? family = Lora: ital, wght @ 1,500 & family = Mate & family = Padauk & family = Source + Serif + 4: wght @ 300 & display = swap ');
 @import url('https://fonts.googleapis.com/css2? family = Lora: ital, wght @ 1,500 & family = Padauk & family = Source + Serif + 4: wght @ 300 & display = swap');
 @import url('https://fonts.googleapis.com/css2? family = Padauk & family = Fuente + Serif + 4: wght @ 300 & display = swap');
+@import "_variables";
+@import "_nav";
+@import "_footer";
 
 * {
     margin: 0;
@@ -11,25 +14,23 @@
 }
 
 body {
-    background-color: #7b869e;
-}
-
-.navbar img {
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
+    background-color: $color-principal;
 }
 
 .jumbotron h1 {
-    color: rgb(228, 222, 222);
-    font-family: 'Padauk', sans-serif;
-
+    color: $color-letra;
+    font-family: $font-1;
 }
 
 .jumbotron p {
-    color: #fff;
-    font-family: 'Padauk', sans-serif;
+    color: $color-letra;
+    font-family: $font-1;
     font-size: 20px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .row .card-body {
@@ -37,16 +38,19 @@ body {
     color: honeydew;
 }
 
-.jumbotron{
-    height: 400px;
-    background-color: rgb(102, 85, 85);
+.jumbotron {
+    border-radius: 0;
+    height: $alto * 8;
+    background-image: url(../img/logosecundario.jpg);
+    background-position: center;
+    background-size: cover;
 
 }
 
 .card .parrafo {
     font-size: 15px;
-    color: #fff;
-    font-family: 'Lucida Sans';
+    color: $color-hover;
+    font-family: $font-2;
 }
 
 #facilities {
@@ -55,9 +59,8 @@ body {
 
 #facilities h2 {
     color: rgb(90, 63, 63);
-    font-size: 70px;
     padding-bottom: 5px;
-    font-family: initial;
+    font-family: $font-2;
 }
 
 .title {
@@ -74,48 +77,119 @@ body {
 }
 
 .card {
-    margin: 20px 10px;
+    margin: 20px $margin-ambos;
 }
 
+$animal: elefante;
 
-footer {
-    background-color: rgb(143, 132, 132);
-    text-align: center;
-    margin-bottom: 0;
+h2 {
+    @if $animal==elefante {
+        font-size: 50px;
+        color: rgb(151, 72, 58);
+        margin-bottom: 20px;
+    }
+
+    @else if $animal==gato {
+        color: teal;
+    }
+
+    @else if $animal==caballo {
+        color: green;
+    }
+
+    @else {
+        color: coral;
+        background-color: #333;
+    }
 }
 
-a:link {
-    color: #fff;
-    text-decoration: none;
+@for $i from 1 through 3 {
+    .bucle-#{$i} {
+        width: $ancho * 8;
+        height: $alto * 5;
+        background-color: peru;
+        border: 2px solid #333;
+        text-align: center;
+        font-size: 30px;
+        padding: 30px;
+    }
 }
 
-a:visited {
-    color: #fff;
-    text-decoration: none;
+$base-color:#036;
+$base-color:#3ff;
+
+@for $in from 1 through 3 {
+    .bucle-#{$in} {
+        background-color: lighten($base-color, $in * 10%);
+        background-color: darken($base-color, $in * 10%);
+    }
 }
 
-a:hover {
-    color: #fff;
-    text-decoration: none;
+$breakpoints: (sm : 540px,
+    md : 768px,
+    lg : 1024px,
+    xl : 1280px);
+
+@mixin media-up($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    }
+
+    @else {
+        @warn "el valor '#{breakpoint}' no ha sido declarado como breakpoint";
+    }
+
+
 }
 
-a:active {
-    color: #fff;
-    text-decoration: none;
+.container7 {
+    background-color: $color-2;
+    background-image: url(../img/logo.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px;
+    height: $alto * 8;
+    width: auto;
+    box-shadow: 0 0 20px rgba(#000000, 0.6);
+    transition: all 400ms ease;
+
+    @include media-up(sm) {
+        transform: scale(0.5);
+        margin-top: 30px;
+    }
+
+    @include media-up(md) {
+        transform: scale(0.5);
+
+    }
+
+    @include media-up(lg) {
+        transform: scale(0.5);
+    }
+
+    @include media-up(xl) {
+        transform: scale(0.5);
+    }
+
+    @include media-up(xxl) {
+        transform: scale(0.5);
+    }
 }
 
 .bg {
     background-image: url(../img/logo.jpeg);
     background-position: center center;
     background-size: cover;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: $margin-ambos;
+    margin-bottom: $margin-ambos;
     border-radius: 5px;
 }
 
 .bg1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: $margin-ambos;
+    margin-bottom: $margin-ambos;
     border-radius: 5px;
 }
 
@@ -127,12 +201,19 @@ a:active {
 
 .h1 {
     font-family: 'Lora', serif;
-    color: rgb(104, 93, 93);
+    color: rgb(155, 151, 151);
+    background-color: rgb(94, 91, 91);
     margin-top: -70px;
+}
+
+.container5 {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .section {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(auto-fit, 280px);
     grid-template-rows: 1fr;
     grid-gap: 1em;
@@ -140,7 +221,7 @@ a:active {
 
 .producto {
     margin-left: 5px;
-    padding: 5px;
+    padding: 15px;
     max-width: 280px;
     display: flex;
     flex-flow: column;
@@ -203,10 +284,11 @@ a:active {
 
 .aos {
     display: flex;
+    text-align: center;
     justify-content: center;
     font-family: 'Lora', serif;
     font-size: 20px;
-    background-color: rgb(100, 93, 93);
+    background-color: $color-1;
     color: rgb(190, 186, 186);
     width: 600px;
     height: 200px;

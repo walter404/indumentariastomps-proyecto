@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2? family = Arimo & family = Be + Vietnam + Pro: ital, wght @ 1,100 & family = Lora: ital, wght @ 1,500 & family = Mate & family = Padauk & family = Fuente + Serif + 4: wght @ 300 & display = swap ");
+@import url("https://fonts.googleapis.com/css2? family = Arimo & family = Lora: ital, wght @ 1,500 & family = Mate & family = Padauk & family = Fuente + Serif + 4: wght @ 300 & display = swap ");
+@import url("https://fonts.googleapis.com/css2? family = Lora: ital, wght @ 1,500 & family = Mate & family = Padauk & family = Source + Serif + 4: wght @ 300 & display = swap ");
+@import url("https://fonts.googleapis.com/css2? family = Lora: ital, wght @ 1,500 & family = Padauk & family = Source + Serif + 4: wght @ 300 & display = swap");
+@import url("https://fonts.googleapis.com/css2? family = Padauk & family = Fuente + Serif + 4: wght @ 300 & display = swap");
+.navbar {
+  background-color: #646c7c;
+  color: #333;
+}
+
+.navbar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #8f8484;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #7b869e;
+}
+
+.jumbotron h1 {
+  color: #553636;
+  font-family: "Padauk", sans-serif;
+}
+
+.jumbotron p {
+  color: #553636;
+  font-family: "Padauk", sans-serif;
+  font-size: 20px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row .card-body {
+  background-color: #726565;
+  color: honeydew;
+}
+
+.jumbotron {
+  border-radius: 0;
+  height: 400px;
+  background-image: url(../img/logosecundario.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card .parrafo {
+  font-size: 15px;
+  color: #fff;
+  font-family: "Lucida Sans";
+}
+
+#facilities {
+  padding: 30px 0px;
+}
+
+#facilities h2 {
+  color: #5a3f3f;
+  padding-bottom: 5px;
+  font-family: "Lucida Sans";
+}
+
+.title {
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.title p {
+  font-size: 18px;
+}
+
+.card-body {
+  -webkit-box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  margin: 20px 10px;
+}
+
+h2 {
+  font-size: 50px;
+  color: #97483a;
+  margin-bottom: 20px;
+}
+
+.bucle-1 {
+  width: 400px;
+  height: 250px;
+  background-color: peru;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.bucle-2 {
+  width: 400px;
+  height: 250px;
+  background-color: peru;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.bucle-3 {
+  width: 400px;
+  height: 250px;
+  background-color: peru;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.bucle-1 {
+  background-color: #66ffff;
+  background-color: cyan;
+}
+
+.bucle-2 {
+  background-color: #99ffff;
+  background-color: #00cccc;
+}
+
+.bucle-3 {
+  background-color: #ccffff;
+  background-color: #009999;
+}
+
+.container7 {
+  background-color: #b6a7a7;
+  background-image: url(../img/logo.jpeg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+  height: 400px;
+  width: auto;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+@media screen and (min-width: 540px) {
+  .container7 {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container7 {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container7 {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container7 {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+
+.bg {
+  background-image: url(../img/logo.jpeg);
+  background-position: center center;
+  background-size: cover;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.bg1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* producto */
+.container4 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.h1 {
+  font-family: 'Lora', serif;
+  color: #9b9797;
+  background-color: #5e5b5b;
+  margin-top: -70px;
+}
+
+.container5 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.section {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: (280px)[auto-fit];
+      grid-template-columns: repeat(auto-fit, 280px);
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-gap: 1em;
+}
+
+.producto {
+  margin-left: 5px;
+  padding: 15px;
+  max-width: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.5);
+  background-color: white;
+  cursor: pointer;
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.producto:hover {
+  -webkit-box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.5);
+}
+
+.producto > img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.informacion {
+  border-top: 1px solid #e6e6e6;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.informacion * + * {
+  margin-bottom: 0.5em;
+}
+
+.tipo-envio {
+  background-color: #3483fa;
+  color: white;
+  font-weight: 600;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 0 0.2em;
+  border-radius: 3px;
+}
+
+.precio {
+  font-size: 1.5em;
+}
+
+.precio-envio {
+  color: #00a650;
+}
+
+.discripcion,
+.ubicacion {
+  font-weight: 300;
+}
+
+.precio-envio,
+.descipcion,
+.ubicacion {
+  font-size: 0.9em;
+}
+
+.aos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  background-color: #645d5d;
+  color: #bebaba;
+  width: 600px;
+  height: 200px;
+  margin-left: 10px;
+}
+
+/* Nosotros */
+.jumbotron1 {
+  text-align: center;
+  background-color: grey;
+  height: 300px;
+  font-size: 30px;
+  font-family: 'Mate', serif;
+}
+
+.single-content {
+  position: relative;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
+          box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
+}
+
+.single-content .text-content,
+.single-content:after {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+}
+
+.single-content:after {
+  content: '';
+  display: block;
+  background: crimson;
+  top: 20px;
+  bottom: 20px;
+  opacity: 0;
+  -webkit-transition: rotate3d(-1, 1, 0, 100deg);
+  transition: rotate3d(-1, 1, 0, 100deg);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.comentario .p .h5 {
+  color: brown;
+}
+
+.slide img {
+  height: 65vh;
+}
+
+.card {
+  margin-top: 5px;
+  background-color: #6d6d6d;
+}
+
+.card .titulo {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+}
+
+.card .secundario {
+  font-size: 25px;
+  color: #fff;
+  font-family: 'Lucida Sans';
+}
+
+/* contacto */
+.container5 {
+  margin-bottom: 50px;
+}
+
+.contacto {
+  margin-top: 20px;
+  margin-bottom: -50px;
+  color: #852f2f;
+  font-family: 'Padauk', sans-serif;
+  font-size: 70px;
+}
+
+/* galeria */
+.galeri {
+  color: #415241;
+  font-family: 'Lora', serif;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=estilos.css.map */
