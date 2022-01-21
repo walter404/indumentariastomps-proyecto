@@ -200,7 +200,7 @@ $breakpoints: (sm : 540px,
 }
 
 .h1 {
-    font-family: 'Lora', serif;
+    font-family: $font-3;
     color: rgb(155, 151, 151);
     background-color: rgb(94, 91, 91);
     margin-top: -70px;
@@ -286,12 +286,12 @@ $breakpoints: (sm : 540px,
     display: flex;
     text-align: center;
     justify-content: center;
-    font-family: 'Lora', serif;
+    font-family: $font-3;
     font-size: 20px;
     background-color: $color-1;
     color: rgb(190, 186, 186);
-    width: 600px;
-    height: 200px;
+    width: $ancho * 12;
+    height: $alto * 4;
     margin-left: 10px;
 }
 
@@ -301,7 +301,7 @@ $breakpoints: (sm : 540px,
     background-color: grey;
     height: 300px;
     font-size: 30px;
-    font-family: 'Mate', serif;
+    font-family: $font-4;
 }
 
 .single-content {
@@ -343,14 +343,14 @@ $breakpoints: (sm : 540px,
 
 .card .titulo {
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: $font-5;
     color: #fff;
 }
 
 .card .secundario {
     font-size: 25px;
     color: #fff;
-    font-family: 'Lucida Sans';
+    font-family: $font-2;
 }
 
 /* contacto */
@@ -362,7 +362,7 @@ $breakpoints: (sm : 540px,
     margin-top: 20px;
     margin-bottom: -50px;
     color: rgb(133, 47, 47);
-    font-family: 'Padauk', sans-serif;
+    font-family: $font-3;
     font-size: 70px;
 
 }
@@ -370,6 +370,6 @@ $breakpoints: (sm : 540px,
 /* galeria */
 .galeri {
     color: rgb(65, 82, 65);
-    font-family: 'Lora', serif;
+    font-family: $font-4;
     margin-top: 20px;
 }

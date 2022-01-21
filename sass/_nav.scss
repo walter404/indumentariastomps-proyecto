@@ -1,9 +1,7 @@
-.navbar{
-    background-color: #646c7c;
-    color: #333;
-}
-.navbar img{
-    width: 150px;
-    height: 150px;
+
+
+.navbar img {
+    width: $ancho * 3;
+    height: $alto * 3;
     border-radius: 5px;
 }
