@@ -3,18 +3,36 @@
 @import url('https://fonts.googleapis.com/css2? family = Lora: ital, wght @ 1,500 & family = Mate & family = Padauk & family = Source + Serif + 4: wght @ 300 & display = swap ');
 @import url('https://fonts.googleapis.com/css2? family = Lora: ital, wght @ 1,500 & family = Padauk & family = Source + Serif + 4: wght @ 300 & display = swap');
 @import url('https://fonts.googleapis.com/css2? family = Padauk & family = Fuente + Serif + 4: wght @ 300 & display = swap');
-@import "_variables";
-@import "_nav";
-@import "_footer";
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+$color-body: #875E4C;
+$color-prisinpal2:#646c7c;
+$color-letra:rgb(85, 54, 54);
+$color-hover:#fff;
+$color-1:rgb(100, 93, 93);
+$color-2:rgb(182, 167, 167);
+$margin-ambos:10px;
+$text:none;
+$text1:center;
+$font-1:'Padauk',
+sans-serif;
+$font-2:'Lucida Sans';
+$font-3: 'Lora',
+serif;
+$font-4: 'Mate',
+serif;
+$font-5:'Courier New',
+Courier,
+monospace;
+$ancho: 50px;
+$alto: 50px;
 
 body {
-    background-color: $color-principal;
+    background-color: $color-body;
     
 }
 
@@ -86,7 +104,7 @@ $animal: elefante;
 h2 {
     @if $animal==elefante {
         font-size: 50px;
-        color: rgb(151, 72, 58);
+        color: rgb(88, 68, 65);
         margin-bottom: 20px;
     }
 
@@ -194,183 +212,10 @@ $breakpoints: (sm : 540px,
     border-radius: 5px;
 }
 
-/* producto */
-.container4 {
-    margin-top: 100px;
-    margin-bottom: 30px;
-}
-
-.h1 {
-    font-family: $font-3;
-    color: rgb(46, 43, 43);
-    margin-top: -70px;
-}
-
-.container5 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.section {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, 280px);
-    grid-template-rows: 1fr;
-    grid-gap: 1em;
-}
-
-.producto {
-    margin-left: 5px;
-    padding: 15px;
-    max-width: 280px;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    border-radius: 6px;
-    box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.5);
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
-    transition-property: box-shadow;
-    transition-duration: 0.3s;
-}
-
-.producto:hover {
-    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.5)
-}
-
-.producto>img {
-    width: 100%;
-    object-fit: cover;
-}
-
-.informacion {
-    border-top: 1px solid rgb(230, 230, 230);
-    padding: 1em;
-    display: flex;
-    flex-flow: column;
-}
-
-.informacion *+* {
-    margin-bottom: 0.5em;
-}
-
-.tipo-envio {
-    background-color: rgb(52, 131, 250);
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    max-width: max-content;
-    padding: 0 0.2em;
-    border-radius: 3px;
-}
-
-.precio {
-    font-size: 1.5em;
-}
-
-.precio-envio {
-    color: rgb(0, 166, 80);
-}
-
-.discripcion,
-.ubicacion {
-    font-weight: 300;
-}
-
-.precio-envio,
-.descipcion,
-.ubicacion {
-    font-size: 0.9em;
-}
-
-.aos {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-family: $font-3;
-    font-size: 20px;
-    background-color: $color-1;
-    color: rgb(190, 186, 186);
-    width: $ancho * 12;
-    height: $alto * 4;
-    margin-left: 10px;
-}
-
-/* Nosotros */
-.jumbotron1 {
-    text-align: center;
-    background-color: grey;
-    height: 300px;
-    font-size: 30px;
-    font-family: $font-4;
-}
-
-.single-content {
-    position: relative;
-    transition: .3s;
-    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
-}
-
-.single-content .text-content,
-.single-content:after {
-    position: absolute;
-    left: 20px;
-    right: 20px;
-}
-
-.single-content:after {
-    content: '';
-    display: block;
-    background: crimson;
-    top: 20px;
-    bottom: 20px;
-    opacity: 0;
-    transition: rotate3d(-1, 1, 0, 100deg);
-    transition: .4s;
-}
-
-.comentario .p .h5 {
-    color: brown;
-}
-
-.slide img {
-    height: 65vh;
-}
-
-.card {
-    margin-top: 5px;
-    background-color: rgb(109, 109, 109);
-}
-
-.card .titulo {
-    font-size: 50px;
-    font-family: $font-5;
-    color: #fff;
-}
-
-.card .secundario {
-    font-size: 25px;
-    color: #fff;
-    font-family: $font-2;
-}
-
-/* contacto */
-.container5 {
-    margin-bottom: 50px;
-}
-
-.contacto {
-    margin-top: 20px;
-    margin-bottom: -50px;
-    color: rgb(133, 47, 47);
-    font-family: $font-3;
-    font-size: 70px;
-
-}
-
-
-/* galeria */
-.galeri {
-    color: rgb(65, 82, 65);
-    font-family: $font-4;
-    margin-top: 20px;
-}
+@import "variables";
+@import "nav";
+@import "footer";
+@import "galeria";
+@import "contacto";
+@import "nosotros";
+@import "productos";

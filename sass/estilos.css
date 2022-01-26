@@ -3,30 +3,6 @@
 @import url("https://fonts.googleapis.com/css2? family = Lora: ital, wght @ 1,500 & family = Mate & family = Padauk & family = Source + Serif + 4: wght @ 300 & display = swap ");
 @import url("https://fonts.googleapis.com/css2? family = Lora: ital, wght @ 1,500 & family = Padauk & family = Source + Serif + 4: wght @ 300 & display = swap");
 @import url("https://fonts.googleapis.com/css2? family = Padauk & family = Fuente + Serif + 4: wght @ 300 & display = swap");
-.navbar img {
-  width: 150px;
-  height: 150px;
-  border-radius: 5px;
-}
-
-footer {
-  background-color: #8f8484;
-  text-align: center;
-  margin-bottom: 0;
-  margin-top: 10px;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-a :hover {
-  color: #333;
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +11,7 @@ a :hover {
 }
 
 body {
-  background-color: #7b869e;
+  background-color: #875E4C;
 }
 
 .jumbotron h1 {
@@ -103,7 +79,7 @@ body {
 
 h2 {
   font-size: 50px;
-  color: #97483a;
+  color: #584441;
   margin-bottom: 20px;
 }
 
@@ -210,7 +186,103 @@ h2 {
   border-radius: 5px;
 }
 
-/* producto */
+.navbar {
+  background-color: #B68A71;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 20px;
+}
+
+.navbar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #4E332A;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a :hover {
+  color: #afadad;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.galeri {
+  color: #5f3f3f;
+  font-family: "Mate", serif;
+  margin-top: 20px;
+}
+
+.container .card :hover {
+  -webkit-box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.7);
+          box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.7);
+}
+
+.container5 {
+  margin-bottom: 50px;
+}
+
+.contacto {
+  margin-top: 20px;
+  margin-bottom: -50px;
+  color: #852f2f;
+  font-family: "Lora", serif;
+  font-size: 70px;
+}
+
+.jumbotron1 {
+  text-align: center;
+  background-image: url(../img/deporte.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 350px;
+  font-size: 30px;
+  font-family: "Mate", serif;
+  margin-top: 10px;
+}
+
+.comentario .p .h5 {
+  color: brown;
+}
+
+.slide {
+  margin-top: 10px;
+}
+
+.slide img {
+  height: 65vh;
+}
+
+.card {
+  margin-top: 5px;
+  background-color: #6d6d6d;
+}
+
+.card .titulo {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+}
+
+.card .secundario {
+  font-size: 25px;
+  color: #fff;
+  font-family: "Lucida Sans";
+}
+
 .container4 {
   margin-top: 100px;
   margin-bottom: 30px;
@@ -335,91 +407,9 @@ h2 {
   font-family: "Lora", serif;
   font-size: 20px;
   background-color: #645d5d;
-  color: #bebaba;
+  color: #fff;
   width: 600px;
   height: 200px;
   margin-left: 10px;
-}
-
-/* Nosotros */
-.jumbotron1 {
-  text-align: center;
-  background-color: grey;
-  height: 300px;
-  font-size: 30px;
-  font-family: "Mate", serif;
-}
-
-.single-content {
-  position: relative;
-  -webkit-transition: .3s;
-  transition: .3s;
-  -webkit-box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
-          box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.8);
-}
-
-.single-content .text-content,
-.single-content:after {
-  position: absolute;
-  left: 20px;
-  right: 20px;
-}
-
-.single-content:after {
-  content: '';
-  display: block;
-  background: crimson;
-  top: 20px;
-  bottom: 20px;
-  opacity: 0;
-  -webkit-transition: rotate3d(-1, 1, 0, 100deg);
-  transition: rotate3d(-1, 1, 0, 100deg);
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.comentario .p .h5 {
-  color: brown;
-}
-
-.slide img {
-  height: 65vh;
-}
-
-.card {
-  margin-top: 5px;
-  background-color: #6d6d6d;
-}
-
-.card .titulo {
-  font-size: 50px;
-  font-family: "Courier New", Courier, monospace;
-  color: #fff;
-}
-
-.card .secundario {
-  font-size: 25px;
-  color: #fff;
-  font-family: "Lucida Sans";
-}
-
-/* contacto */
-.container5 {
-  margin-bottom: 50px;
-}
-
-.contacto {
-  margin-top: 20px;
-  margin-bottom: -50px;
-  color: #852f2f;
-  font-family: "Lora", serif;
-  font-size: 70px;
-}
-
-/* galeria */
-.galeri {
-  color: #415241;
-  font-family: "Mate", serif;
-  margin-top: 20px;
 }
 /*# sourceMappingURL=estilos.css.map */

@@ -1,5 +1,5 @@
 footer {
-    background-color: rgb(143, 132, 132);
+    background-color: #4E332A;
     text-align: center;
     margin-bottom: 0;
     margin-top: 10px;
@@ -8,11 +8,11 @@ footer {
 }
 
 
-a{
+footer a{
     text-decoration: none;
-    color: #fff;
+    color: $color-hover;
     :hover{
-        color: #333;
+        color: rgb(175, 173, 173);
         transform: translateY(-10px);
     }
 }

@@ -1,4 +1,10 @@
-
+.navbar{
+    background-color: #B68A71;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: $color-hover;
+    font-size: 20px;
+}
 
 .navbar img {
     width: $ancho * 3;

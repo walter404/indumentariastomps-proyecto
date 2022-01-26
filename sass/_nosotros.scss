@@ -1,0 +1,39 @@
+.jumbotron1 {
+    text-align: center;
+    background-image: url(../img/deporte.jpg);
+    background-size: cover;
+    background-position: center;
+    color: $color-hover;
+    height: 350px;
+    font-size: 30px;
+    font-family: $font-4;
+    margin-top: 10px;
+}
+
+
+.comentario .p .h5 {
+    color: brown;
+}
+.slide{
+    margin-top: 10px;
+}
+.slide img {
+    height: 65vh;
+}
+
+.card {
+    margin-top: 5px;
+    background-color: rgb(109, 109, 109);
+}
+
+.card .titulo {
+    font-size: 50px;
+    font-family: $font-5;
+    color: #fff;
+}
+
+.card .secundario {
+    font-size: 25px;
+    color: #fff;
+    font-family: $font-2;
+}
