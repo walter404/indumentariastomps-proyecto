@@ -10,13 +10,10 @@
     margin-top: 10px;
 }
 
-
-.comentario .p .h5 {
-    color: brown;
-}
-.slide{
+.slide {
     margin-top: 10px;
 }
+
 .slide img {
     height: 65vh;
 }
@@ -29,11 +26,18 @@
 .card .titulo {
     font-size: 50px;
     font-family: $font-5;
-    color: #fff;
+    color: $color-hover;
 }
 
 .card .secundario {
     font-size: 25px;
-    color: #fff;
+    color: $color-hover;
     font-family: $font-2;
+
+}
+
+.parrafo {
+    color: $color-hover;
+    font-family: $font-5;
+    text-align: center;
 }

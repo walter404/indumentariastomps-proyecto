@@ -11,10 +11,10 @@
 }
 $color-body: #875E4C;
 $color-prisinpal2:#646c7c;
-$color-letra:rgb(85, 54, 54);
+$color-letra:rgb(105, 86, 86);
 $color-hover:#fff;
-$color-1:rgb(100, 93, 93);
-$color-2:rgb(182, 167, 167);
+$color-1: rgb(141, 97, 97);
+$color-2:rgb(122, 78, 78);
 $margin-ambos:10px;
 $text:none;
 $text1:center;
@@ -66,46 +66,14 @@ body {
 
 }
 
-.card .parrafo {
-    font-size: 15px;
-    color: $color-hover;
-    font-family: $font-2;
-}
-
-#facilities {
-    padding: 30px 0px;
-}
-
-#facilities h2 {
-    color: rgb(90, 63, 63);
-    padding-bottom: 5px;
-    font-family: $font-2;
-}
-
-.title {
-    text-align: center;
-    padding: 25px 0px;
-}
-
-.title p {
-    font-size: 18px;
-}
-
-.card-body {
-    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
-}
-
-.card {
-    margin: 20px $margin-ambos;
-}
-
 $animal: elefante;
 
 h2 {
     @if $animal==elefante {
         font-size: 50px;
-        color: rgb(88, 68, 65);
-        margin-bottom: 20px;
+        color: #fff;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     @else if $animal==gato {
@@ -126,11 +94,11 @@ h2 {
     .bucle-#{$i} {
         width: $ancho * 8;
         height: $alto * 5;
+        padding-top: 40px;
         background-color: peru;
         border: 2px solid #333;
         text-align: center;
         font-size: 30px;
-        padding: 30px;
     }
 }
 
@@ -211,6 +179,7 @@ $breakpoints: (sm : 540px,
     margin-bottom: $margin-ambos;
     border-radius: 5px;
 }
+
 
 @import "variables";
 @import "nav";

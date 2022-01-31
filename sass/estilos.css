@@ -15,12 +15,12 @@ body {
 }
 
 .jumbotron h1 {
-  color: #553636;
+  color: #695656;
   font-family: "Padauk", sans-serif;
 }
 
 .jumbotron p {
-  color: #553636;
+  color: #695656;
   font-family: "Padauk", sans-serif;
   font-size: 20px;
 }
@@ -43,74 +43,41 @@ body {
   background-size: cover;
 }
 
-.card .parrafo {
-  font-size: 15px;
-  color: #fff;
-  font-family: "Lucida Sans";
-}
-
-#facilities {
-  padding: 30px 0px;
-}
-
-#facilities h2 {
-  color: #5a3f3f;
-  padding-bottom: 5px;
-  font-family: "Lucida Sans";
-}
-
-.title {
-  text-align: center;
-  padding: 25px 0px;
-}
-
-.title p {
-  font-size: 18px;
-}
-
-.card-body {
-  -webkit-box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
-}
-
-.card {
-  margin: 20px 10px;
-}
-
 h2 {
   font-size: 50px;
-  color: #584441;
-  margin-bottom: 20px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .bucle-1 {
   width: 400px;
   height: 250px;
+  padding-top: 40px;
   background-color: peru;
   border: 2px solid #333;
   text-align: center;
   font-size: 30px;
-  padding: 30px;
 }
 
 .bucle-2 {
   width: 400px;
   height: 250px;
+  padding-top: 40px;
   background-color: peru;
   border: 2px solid #333;
   text-align: center;
   font-size: 30px;
-  padding: 30px;
 }
 
 .bucle-3 {
   width: 400px;
   height: 250px;
+  padding-top: 40px;
   background-color: peru;
   border: 2px solid #333;
   text-align: center;
   font-size: 30px;
-  padding: 30px;
 }
 
 .bucle-1 {
@@ -129,7 +96,7 @@ h2 {
 }
 
 .container7 {
-  background-color: #b6a7a7;
+  background-color: #7a4e4e;
   background-image: url(../img/logo.jpeg);
   background-position: center;
   background-size: cover;
@@ -220,7 +187,7 @@ footer a :hover {
 }
 
 .galeri {
-  color: #5f3f3f;
+  color: #fff;
   font-family: "Mate", serif;
   margin-top: 20px;
 }
@@ -254,10 +221,6 @@ footer a :hover {
   margin-top: 10px;
 }
 
-.comentario .p .h5 {
-  color: brown;
-}
-
 .slide {
   margin-top: 10px;
 }
@@ -283,6 +246,12 @@ footer a :hover {
   font-family: "Lucida Sans";
 }
 
+.parrafo {
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
 .container4 {
   margin-top: 100px;
   margin-bottom: 30px;
@@ -290,8 +259,9 @@ footer a :hover {
 
 .h1 {
   font-family: "Lora", serif;
-  color: #2e2b2b;
+  color: #fff;
   margin-top: -70px;
+  font-size: 50px;
 }
 
 .container5 {
@@ -406,7 +376,7 @@ footer a :hover {
           justify-content: center;
   font-family: "Lora", serif;
   font-size: 20px;
-  background-color: #645d5d;
+  background-color: #684d4d;
   color: #fff;
   width: 600px;
   height: 200px;
