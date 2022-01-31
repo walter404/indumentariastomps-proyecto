@@ -1,6 +1,6 @@
 .container4 {
-    margin-top: 100px;
-    margin-bottom: 30px;
+    margin-top: $margin-ambos * 10;
+    margin-bottom: $margin-ambos * 3;
 }
 
 .h1 {
@@ -96,5 +96,5 @@
     color: $color-hover;
     width: $ancho * 12;
     height: $alto * 4;
-    margin-left: 10px;
+    margin-left: $margin-ambos;
 }

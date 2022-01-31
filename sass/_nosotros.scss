@@ -4,14 +4,14 @@
     background-size: cover;
     background-position: center;
     color: $color-hover;
-    height: 350px;
+    height: $alto * 7;
     font-size: 30px;
     font-family: $font-4;
-    margin-top: 10px;
+    margin-top: $margin-ambos;
 }
 
 .slide {
-    margin-top: 10px;
+    margin-top: $margin-ambos;
 }
 
 .slide img {

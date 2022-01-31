@@ -1,9 +1,9 @@
 .container5 {
-    margin-bottom: 50px;
+    margin-bottom: $margin-ambos * 5;
 }
 
 .contacto {
-    margin-top: 20px;
+    margin-top: $margin-ambos * 2;
     margin-bottom: -50px;
     color: rgb(133, 47, 47);
     font-family: $font-3;

@@ -1,7 +1,7 @@
 .galeri {
     color: $color-hover;
     font-family: $font-4;
-    margin-top: 20px;
+    margin-top: $margin-ambos * 2;
 }
 .container .card :hover{
     box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.7)
